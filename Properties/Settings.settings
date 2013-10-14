@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="skypeRobotController_Slave.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="failedToSendMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Magabot didn't hear you...
+It isn't connected yet.</Value>
+    </Setting>
+    <Setting Name="port" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">6969</Value>
+    </Setting>
+    <Setting Name="welcomeMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Hello!  
+Please wait until we give you the control of the robot.</Value>
+    </Setting>
+    <Setting Name="waitMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">You're not controlling Magabot yet. 
+Wait for you turn...</Value>
+    </Setting>
+    <Setting Name="controllerMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Hurray!!! 
+Magabot is now under your command. 
+Remember: 
+You have two ways of controlling the robot
+Using chat messages :
+- '1' to Assisted Navigation    
+  - 'w' to go forward 
+  - 's' to go backward
+  - 'a' to go left
+  - 'd' to go right
+  - 'p' to stop
+- '2' to Autonomous navigation
+
+Using dial pad
+-'*' to Assisted Navigation
+  -'2' to go forward
+  -'8' to go backward
+  -'4' to go left
+  -'6' to go right
+  -'5' to stop
+-'#' to Autonomous navigation</Value>
+    </Setting>
+    <Setting Name="adminMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">"Hello, 
+You've been selected as my admin"</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
